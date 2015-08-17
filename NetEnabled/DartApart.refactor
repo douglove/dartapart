@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE refactor PUBLIC "-//Borland Software Corporation//Refactor 1.0//EN" "http://www.borland.com/devsupport/jbuilder/dtds/refactor_1_0.dtd">
+
+<refactor>
+  <rename-method id="7AP0QI5Q93GFRYBCAFLSRXY0" creation-time="Sat May 10 23:51:54.083 PDT 2008">
+    <declaring-class-name>net.magicstudios.jdart.data.DartApartModel</declaring-class-name>
+    <declared-method-signature>()V</declared-method-signature>
+    <old-method-name>start</old-method-name>
+    <new-method-name>startGame</new-method-name>
+  </rename-method>
+  <rename-method id="7AP0CO2TC7GFGN8IDFLSRXY0" creation-time="Tue May 13 20:29:13.916 PDT 2008">
+    <declaring-class-name>net.magicstudios.jdart.data.DartApartModel</declaring-class-name>
+    <declared-method-signature>()Ljava/util/List;</declared-method-signature>
+    <old-method-name>getThrows</old-method-name>
+    <new-method-name>getVisibleThrows</new-method-name>
+  </rename-method>
+  <rename-class id="6AP0CO2TC7GFGN8IDFLSRXY0" creation-time="Tue May 13 21:09:02.541 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.service.AwaitingPlayersDialog</old-class-name>
+    <new-class-name>net.magicstudios.jdart.ui.AwaitingPlayersDialog</new-class-name>
+  </rename-class>
+  <rename-class id="7AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:50:15.359 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.GameModel</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.games.GameModel</new-class-name>
+  </rename-class>
+  <rename-class id="6AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:50:35.703 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.CricketGameModel</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.games.CricketGameModel</new-class-name>
+  </rename-class>
+  <rename-class id="5AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:51:34.656 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.OhOneGameModel</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.games.OhOneGameModel</new-class-name>
+  </rename-class>
+  <rename-class id="4AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:52:15.937 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.GameModelFactory</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.games.GameModelFactory</new-class-name>
+  </rename-class>
+  <rename-class id="3AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:53:36.140 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.RandomPointGameModel</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.games.RandomPointGameModel</new-class-name>
+  </rename-class>
+  <rename-class id="2AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:55:19.125 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.PlayerMonitorThread</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.monitors.PlayerMonitorThread</new-class-name>
+  </rename-class>
+  <rename-class id="1AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:56:31.078 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.ThrowMonitorThread</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.monitors.ThrowMonitorThread</new-class-name>
+  </rename-class>
+  <rename-class id="0AP0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 19:56:33.703 PDT 2008">
+    <old-class-name>net.magicstudios.jdart.data.StatusMonitorThread</old-class-name>
+    <new-class-name>net.magicstudios.jdart.data.monitors.StatusMonitorThread</new-class-name>
+  </rename-class>
+  <rename-method id="Z9P0U8IQLBGFNA9468T0QKH0" creation-time="Fri May 16 22:00:43.250 PDT 2008">
+    <declaring-class-name>net.magicstudios.jdart.data.games.GameModel</declaring-class-name>
+    <declared-method-signature>()V</declared-method-signature>
+    <old-method-name>nextRound</old-method-name>
+    <new-method-name>roundEnding</new-method-name>
+  </rename-method>
+</refactor>
+

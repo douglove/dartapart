@@ -1,0 +1,20 @@
+[PropertyInfo]
+createDate,java.util.Date,false,false,create_date,create_date,true,<default>
+description,String,false,false,description,description,true,<default>
+eliminated,boolean,false,false, , ,true,<default>
+email,String,false,false,email,email,true,<default>
+geoloc,String,false,false,geoloc,geoloc,true,<default>
+icon,String,false,false,icon,icon,true,<default>
+id,int,false,false,id,id,true,<default>
+lastLoginDate,java.util.Date,false,false,lastLoginDate,lastLoginDate,true,<default>
+name,String,false,false,name,name,true,<default>
+score,int,false,false, , ,true,<default>
+sessionID,String,false,false,sessionID,sessionID,true,<default>
+throwHistoryAsStrings,String[],false,false, , ,true,<default>
+zone,int[],false,false, , ,true,<default>
+joinID,int,false,false,joinID,joinID,true,<default>
+[IconNames]
+
+
+
+

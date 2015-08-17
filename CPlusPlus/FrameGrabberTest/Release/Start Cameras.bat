@@ -1,0 +1,1 @@
+cscript //nologo go.vbs
